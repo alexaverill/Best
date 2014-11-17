@@ -1,0 +1,61 @@
+<html>
+<head>
+<link rel="stylesheet" href="source/dist/css/bootstrap.css"/>
+<link rel="stylesheet" href="source/dist/css/bootstrap-theme.min.css"/>
+<script type="text/javascript" href="source/dist/js/bootstrap.min.js"></script>
+    <style type="text/css">
+    .container {
+        padding-top: 5%;
+    }
+    li{
+        list-style-type: none;
+    }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Best Template</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="teamformexample.html">Team Information Form</a></li>
+            <li><a href="teameditexample.html">Team Information Editable</a></li>
+            <li><a href="teamselectexample.html">Team Select Times</a></li>
+              <li><a href="adminexample.html">Admin Views</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+   <div class="container theme-showcase" role="main">
+        <h1>Team Information</h1>
+        <div id="teamForm" class="input-group">
+            <form>
+                Team Name: Known Name (Input by administrator)
+                <div class="form-group">
+                     <label for="exampleInputEmail1">Short Team Name</label>
+                    <input class="form-control" type="text" name="shortname" placeholder="Short Name"/>
+                </div>
+                <div class="form-group">
+                     <label for="exampleInputEmail1">Coach Name:</label>
+                   <input class="form-control" type="text" placeholder="Coach Name"/>
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Email:</label>
+                    <input class="form-control" type="email" placeholder="Coach Email"/>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

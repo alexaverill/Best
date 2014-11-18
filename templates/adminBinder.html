@@ -1,0 +1,14 @@
+<div id="">
+    <h1 class="page-header">Team Binders</h1>
+    <div class="row">
+        <table class="table table-striped">
+            <tbody>
+                <tr><Th>Team Number</Th><th>Team Name</th><th>Team Website</th></tr>
+                {%for teamInfo in TeamList%}
+                    <tr><Td>{{teamInfo.teamNumber}}</Td><td>{{teamInfo.teamName}}</td><td><a href="google.com">{{teamInfo.binderURL}}</a></td></tr>
+                {%endfor%}
+                <tr><Td>454</Td><td>Testing Team 2</td><td><a href="google.com">Team Binder</a></td></tr>
+                <tr><Td>565</Td><td>Testing Team 3</td><td><a href="google.com">Team Binder</a></td></tr>
+                </td></tr>
+            </tbody>
+        </table>

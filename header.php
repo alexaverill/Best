@@ -15,7 +15,7 @@ if (version_compare(phpversion(), '5.5.0', '<')) {
 try{
     $dbh= new PDO('mysql:host='.$data_host.';dbname='.$name_database,$data_username,$data_password);
 }catch(PDOException $e){
-    //echo $e->getMessage();
+    echo $e->getMessage();
 }
 include('templates/head.html');
 ?>

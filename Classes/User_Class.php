@@ -3,7 +3,7 @@ class Users {
     /*
      *General user class, used for logins, and password resets.
      *Addition of teams and users is an administrator purpose, so it is going to be in that class.
-     *Addition of teams is also going to be a seperate class, there will be a team class that can be initialized to edit team information
+     *Addition of teams is also going to be a seperate class, there will be a team class that can be initialized to edit team information/
      *
      *
      *
